@@ -1,0 +1,830 @@
+Script started on 2025-11-25 09:38:19+00:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="133" LINES="37"]
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda create --name myenvironment python numpy pandas[27mconda create --name myenvironment python numpy pandas
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+- ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+/ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+- \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+\ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+\ failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda info --envs[27mconda info --envs
+[?2004l
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/tiger321/conda
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda activate[27mconda activate
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda activate myenvironment[27mconda activate myenvironment
+[?2004l
+
+EnvironmentNameNotFound: Could not find conda environment: myenvironment
+You can list all discoverable environments with `conda info --envs`.
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda install matplotlib[27mconda install matplotlib
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): \ | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+\ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+\ Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda install --name myenvironment matplotlib[27mconda install --name myenvironment matplotlib
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+- ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+
+EnvironmentLocationNotFound: Not a conda environment: /home/tiger321/conda/envs/myenvironment
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda install conda-forge::numpy[27mconda install conda-forge::numpy
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+| Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda 25.11.1.dev8[27mconda 25.11.1.dev8
+[?2004l
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: '25.11.1.dev8' (choose from activate, clean, commands, compare, config, create, deactivate, doctor, env, export, info, init, install, list, menuinst, notices, package, remove, rename, repoquery, run, search, uninstall, update, upgrade)
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda --version
+[?2004l
+conda 25.9.1
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda activate
+[?2004l
+c[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda update conda
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): \ | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+\ failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7msha256sum filename[27msha256sum filename
+[?2004l
+sha256sum: filename: No such file or directory
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda info[27mconda info
+[?2004l
+
+     active environment : base
+    active env location : /home/tiger321/conda
+            shell level : 1
+       user config file : /home/tiger321/.condarc
+ populated config files : /home/tiger321/conda/.condarc
+          conda version : 25.9.1
+    conda-build version : not installed
+         python version : 3.12.12.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=skylake
+                          __conda=25.9.1=0
+                          __glibc=2.39=0
+                          __linux=5.10.102.1=0
+                          __unix=0=0
+       base environment : /home/tiger321/conda  (writable)
+      conda av data dir : /home/tiger321/conda/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+          package cache : /home/tiger321/conda/pkgs
+                          /home/tiger321/.conda/pkgs
+       envs directories : /home/tiger321/conda/envs
+                          /home/tiger321/.conda/envs
+               platform : linux-64
+             user-agent : conda/25.9.1 requests/2.32.5 CPython/3.12.12 Linux/5.10.102.1-microsoft-standard-WSL2 ubuntu/24.04.1 glibc/2.39 solver/libmamba conda-libmamba-solver/25.4.0 libmambapy/2.3.3
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ 
+[K
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda [27m[7mu[27m[7mpdate --name base conda[27m[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda update --name base conda
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): \ | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+/ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+/ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+- Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda [27m[7mc[27m[7mreate --name <my-env>[27m[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --name <my-env>[1P <my-env>[1P <my-env>[1P <my-env>[1P <my-env>p <my-env>a <my-env>v <my-env>i <my-env>t <my-env>r <my-env>a <my-env>[C[C[C[C[C[C[C[C[C
+[?2004l
+bash: syntax error near unexpected token `newline'
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --pavitra <my-env>[1P>[1P>[1P>[1P>[1P>[1P>p>a>v>i>t>r>a>[C
+[?2004l
+bash: syntax error near unexpected token `newline'
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --pavitra <pavitra>
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccr[1P[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C c[1@r
+
+[K
+[A[K
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --pavitra <pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C
+
+
+[K
+[A[K
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --pavitra <pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C
+
+
+[K
+[A[K
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --pavitra <pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C
+
+[C[C[C[C[C[1Pmy-env>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[Cupdate --name [1Pbase conda[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[Ccreate --pavitra <my-env>
+[C[C[C[C[Cpavitra>[1P <pavitra>
+[C[C[1P <pavitra>
+[C
+[1P <pavitra>
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <[1Ppavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <p[1Pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <pa[1Pvitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <pav[1Pitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <pavi[1Ptra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C- <pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn <pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca <pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm <pavitra>[A
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce <pavitra>
+[C[C[C[C[C[C[C[C[C[C
+[?2004l
+bash: syntax error near unexpected token `newline'
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --name <pavitra>
+[?2004l
+bash: syntax error near unexpected token `newline'
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --name 
+ <pavitra_conda_enc>[K[Kv>
+[?2004l
+bash: syntax error near unexpected token `newline'
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ 
+[K
+(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda create --name <pavitra_conda_env>
+[?2004l
+bash: syntax error near unexpected token `newline'
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda create --name <my-env>[27mconda create --name <my-env>
+[?2004l
+bash: syntax error near unexpected token `newline'
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda create --name myenv python[27mconda create --name myenv python
+[?2004l
+Retrieving notices: - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+\ | / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+\ | / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+| Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda create -n myenv python=3.9[27mconda create -n myenv python=3.9
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+- ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): | / Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+- \ | / - \ | / - \ | / - \ | / - \ | / - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+\ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+\ Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+| failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda create --platform osx-64 --name python-x64 python[27mconda create --platform osx-64 --name python-x64 python
+[?2004l
+Retrieving notices: - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+\ | / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+Platform: osx-64
+Collecting package metadata (repodata.json): \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+| Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/osx-64/repodata.json.zst
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/osx-64/repodata.json.zst
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/osx-64/repodata.json.zst
+
+/ - failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/osx-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda env list[27mconda env list
+[?2004l
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/tiger321/conda
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda env update --file environment.yml  --prune[27mconda env update --file environment.yml  --prune
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+
+EnvironmentFileNotFound: '/mnt/c/Users/pavitra.santhana/environment.yml' file not found
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda create --name myclone --clone myenv[27mconda create --name myclone --clone myenv
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+
+EnvironmentLocationNotFound: Not a conda environment: /home/tiger321/conda/envs/myenv
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda info --envs[27mconda info --envs
+[?2004l
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/tiger321/conda
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda list --explicit > spec-file.txt[27mconda list --explicit > spec-file.txt
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda list --explicit > spec-file.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt
+[?2004l
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+# created-by: conda 25.9.1
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.10.5-hbd8a1cb_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libgomp-15.2.0-h767d61c_7.conda
+https://conda.anaconda.org/conda-forge/noarch/nlohmann_json-abi-3.12.0-h0f90c79_1.conda
+https://conda.anaconda.org/conda-forge/noarch/pybind11-abi-4-hd8ed1ab_3.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/python_abi-3.12-8_cp312.conda
+https://conda.anaconda.org/conda-forge/noarch/tzdata-2025b-h78e105d_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-2_gnu.tar.bz2
+https://conda.anaconda.org/conda-forge/linux-64/libgcc-15.2.0-h767d61c_7.conda
+https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_8.conda
+https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.34.5-hb9d3cd8_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/keyutils-1.6.3-hb9d3cd8_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.1-hecca717_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libffi-3.5.2-h9ec8514_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-15.2.0-h69a702a_7.conda
+https://conda.anaconda.org/conda-forge/linux-64/libiconv-1.18-h3b78370_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/liblzma-5.8.1-hb9d3cd8_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/libnsl-2.0.1-hb9d3cd8_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-15.2.0-h8f9b012_7.conda
+https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.41.2-he9a06e4_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/lzo-2.10-h280c20c_1002.conda
+https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
+https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.4-h26f9b46_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/reproc-14.2.5.post0-hb9d3cd8_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/cpp-expected-1.3.1-h171cf75_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/fmt-12.0.0-h2b0788b_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libedit-3.1.20250104-pl5321h7949ede_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libev-4.33-hd590300_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/libsolv-0.7.35-h9463b59_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.50.4-h0c1763c_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libssh2-1.11.1-hcf80075_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-15.2.0-h4852527_7.conda
+https://conda.anaconda.org/conda-forge/linux-64/libxcrypt-4.4.36-hd590300_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/libxml2-16-2.15.1-hf2a90c1_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/lz4-c-1.10.0-h5888daf_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8c095d6_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/reproc-cpp-14.2.5.post0-h5888daf_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/simdjson-4.0.7-hb700be7_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_hd72426e_102.conda
+https://conda.anaconda.org/conda-forge/linux-64/yaml-cpp-0.8.0-h3f2d84a_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb8e6e7a_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/krb5-1.21.3-h659f571_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.44-h1aa0949_4.conda
+https://conda.anaconda.org/conda-forge/linux-64/libnghttp2-1.67.0-had1ee68_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libxml2-2.15.1-h031cc0b_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/libarchive-3.8.2-gpl_h7be2006_100.conda
+https://conda.anaconda.org/conda-forge/linux-64/libcurl-8.16.0-h4e3cde8_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/python-3.12.12-hd63d673_1_cpython.conda
+https://conda.anaconda.org/conda-forge/linux-64/libmamba-2.3.3-h09abcb8_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/menuinst-2.4.1-py312h7900ff3_0.conda
+https://conda.anaconda.org/conda-forge/noarch/archspec-0.2.5-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/boltons-25.0.0-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/brotli-python-1.1.0-py312h1289d80_4.conda
+https://conda.anaconda.org/conda-forge/noarch/certifi-2025.10.5-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/charset-normalizer-3.4.4-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.6-pyhd8ed1ab_1.conda
+https://conda.anaconda.org/conda-forge/noarch/distro-1.9.0-pyhd8ed1ab_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/frozendict-2.4.6-py312h4c3975b_1.conda
+https://conda.anaconda.org/conda-forge/noarch/hpack-4.1.0-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/hyperframe-6.1.0-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/idna-3.11-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/jsonpointer-3.0.0-py312h7900ff3_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/libmambapy-2.3.3-py312h9b917ee_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/mamba-2.3.3-heaf8479_1.conda
+https://conda.anaconda.org/conda-forge/noarch/packaging-25.0-pyh29332c3_1.conda
+https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.5.0-pyhcf101f3_0.conda
+https://conda.anaconda.org/conda-forge/noarch/pluggy-1.6.0-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/pycosat-0.6.6-py312h4c3975b_3.conda
+https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyh29332c3_1.conda
+https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
+https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml.clib-0.2.14-py312h4c3975b_0.conda
+https://conda.anaconda.org/conda-forge/noarch/setuptools-80.9.0-pyhff2d567_0.conda
+https://conda.anaconda.org/conda-forge/noarch/truststore-0.10.3-pyhe01879c_0.conda
+https://conda.anaconda.org/conda-forge/noarch/wheel-0.45.1-pyhd8ed1ab_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/cffi-2.0.0-py312h460c074_1.conda
+https://conda.anaconda.org/conda-forge/noarch/h2-4.3.0-pyhcf101f3_0.conda
+https://conda.anaconda.org/conda-forge/noarch/jsonpatch-1.33-pyhd8ed1ab_1.conda
+https://conda.anaconda.org/conda-forge/noarch/pip-25.2-pyh8b19718_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.18.16-py312h4c3975b_0.conda
+https://conda.anaconda.org/conda-forge/noarch/tqdm-4.67.1-pyhd8ed1ab_1.conda
+https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.25.0-py312h5253ce2_0.conda
+https://conda.anaconda.org/conda-forge/noarch/conda-package-streaming-0.12.0-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/urllib3-2.5.0-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/requests-2.32.5-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/noarch/conda-package-handling-2.4.0-pyh7900ff3_2.conda
+https://conda.anaconda.org/conda-forge/linux-64/conda-25.9.1-py312h7900ff3_0.conda
+https://conda.anaconda.org/conda-forge/noarch/conda-libmamba-solver-25.4.0-pyhd8ed1ab_0.conda
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda activate --stack myenv[27mconda activate --stack myenv
+[?2004l
+
+EnvironmentNameNotFound: Could not find conda environment: myenv
+You can list all discoverable environments with `conda info --envs`.
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda activate --stack myenv[1Penv[1Penv[C[C[C
+[?2004l
+
+EnvironmentNameNotFound: Could not find conda environment: env
+You can list all discoverable environments with `conda info --envs`.
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda config --set auto_stack 1[27mconda config --set auto_stack 1
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda info --envs[27mconda info --envs
+[?2004l
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/tiger321/conda
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda config --set changeps1 false[27mconda config --set changeps1 false
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda config --set changeps1 true[27mconda config --set changeps1 true
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda env list[27mconda env list
+[?2004l
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/tiger321/conda
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda export --format=environment-yaml --file=environment.yaml[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda export --format=environment-yaml --file=environment.yaml
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda remove --name myenv --all[27mconda remove --name myenv --all
+[?2004l
+
+EnvironmentLocationNotFound: Not a conda environment: /home/tiger321/conda/envs/myenv
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda info --envs[27mconda info --envs
+[?2004l
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/tiger321/conda
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda config --add channels new_channel[27mconda config --add channels new_channel
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda config --prepend channels new_channel[27mconda config --prepend channels new_channel
+[?2004l
+Warning: 'new_channel' already in 'channels' list, moving to the top
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda config --append channels new_channel[27mconda config --append channels new_channel
+[?2004l
+Warning: 'new_channel' already in 'channels' list, moving to the bottom
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ ^C[?2004l
+[?2004h[?2004l
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda config --describe channel_priority[27mconda config --describe channel_priority
+[?2004l
+# # channel_priority (ChannelPriority)
+# #   Accepts values of 'strict', 'flexible', and 'disabled'. The default
+# #   value is 'flexible'. With strict channel priority, packages in lower
+# #   priority channels are not considered if a package with the same name
+# #   appears in a higher priority channel. With flexible channel priority,
+# #   the solver may reach into lower priority channels to fulfill
+# #   dependencies, rather than raising an unsatisfiable error. With channel
+# #   priority disabled, package version takes precedence, and the
+# #   configured priority of channels is used only to break ties. In
+# #   previous versions of conda, this parameter was configured as either
+# #   True or False. True is now an alias to 'flexible'.
+# # 
+# channel_priority: flexible
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mCONDA_OVERRIDE_CUDA=12.8 conda install pytorch[27mCONDA_OVERRIDE_CUDA=12.8 conda install pytorch
+[?2004l
+Retrieving notices: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/notices.json
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+| / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/notices.json
+
+| Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/notices.json
+
+| ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /new_channel/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: new_channel url: https://conda.anaconda.org/new_channel/notices.json
+/ Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/notices.json
+
+- ERROR conda.notices.fetch:get_channel_notice_response(72): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+done
+Channels:
+ - conda-forge
+ - new_channel
+Platform: linux-64
+Collecting package metadata (repodata.json): | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/linux-64/repodata.json.zst
+
+/ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/noarch/repodata.json.zst
+
+- \ | / - \ | / - \ | / - \ | / - \ | / Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/noarch/repodata.json.zst
+
+- Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/linux-64/repodata.json.zst
+
+\ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/linux-64/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /new_channel/noarch/repodata.json.zst
+
+\ failed
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/linux-64/repodata.json.zst (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ CONDA_OVERRIDE_CUDA=12.8 conda install pytorch[6Pconda config --describe channel_priorityappend channels new_channel[1@pre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pad[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pinfo --envsremove --name myenv --allexport --format=environment-yaml --file=environment.yamlnv list[Kconfig --set changeps1 truefalse[17Pinfo --envsconfig --set auto_stack 1[5Pactivate --stack envmyenv[7mmy_unix_session_Final.txt[27m[1Pmy_unix_session_Final.tx[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda indo[K[Kfo
+[?2004l
+
+     active environment : base
+    active env location : /home/tiger321/conda
+            shell level : 1
+       user config file : /home/tiger321/.condarc
+ populated config files : /home/tiger321/conda/.condarc
+                          /home/tiger321/.condarc
+          conda version : 25.9.1
+    conda-build version : not installed
+         python version : 3.12.12.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=skylake
+                          __conda=25.9.1=0
+                          __glibc=2.39=0
+                          __linux=5.10.102.1=0
+                          __unix=0=0
+       base environment : /home/tiger321/conda  (writable)
+      conda av data dir : /home/tiger321/conda/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://conda.anaconda.org/new_channel/linux-64
+                          https://conda.anaconda.org/new_channel/noarch
+          package cache : /home/tiger321/conda/pkgs
+                          /home/tiger321/.conda/pkgs
+       envs directories : /home/tiger321/conda/envs
+                          /home/tiger321/.conda/envs
+               platform : linux-64
+             user-agent : conda/25.9.1 requests/2.32.5 CPython/3.12.12 Linux/5.10.102.1-microsoft-standard-WSL2 ubuntu/24.04.1 glibc/2.39 solver/libmamba conda-libmamba-solver/25.4.0 libmambapy/2.3.3
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda install conda-build[27mconda install conda-build
+[?2004l
+Retrieving notices: - \ | / - \ | / - done
+Channels:
+ - conda-forge
+ - new_channel
+Platform: linux-64
+Collecting package metadata (repodata.json): | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+UnavailableInvalidChannel: HTTP 404 Not Found for channel new_channel <https://conda.anaconda.org/new_channel>
+
+The channel is not accessible or is invalid.
+
+You will need to adjust your conda configuration to proceed.
+Use `conda config --show channels` to view your configuration's current state,
+and use `conda config --show-sources` to view config file locations.
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda index channel/[27mconda index channel/
+[?2004l
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'index' (choose from activate, clean, commands, compare, config, create, deactivate, doctor, env, export, info, init, install, list, menuinst, notices, package, remove, rename, repoquery, run, search, uninstall, update, upgrade)
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda search -c file:///opt/channel/ --override-channels[27mconda search -c file:///opt/channel/ --override-channels
+[?2004l
+Loading channels: - failed
+
+UnavailableInvalidChannel: HTTP 404 UNAVAILABLE OR INVALID for channel channel <file:///opt/channel>
+
+The channel is not accessible or is invalid.
+
+You will need to adjust your conda configuration to proceed.
+Use `conda config --show channels` to view your configuration's current state,
+and use `conda config --show-sources` to view config file locations.
+
+As of conda 4.3, a valid channel must contain a
+`noarch/repodata.json` even if `noarch/repodata.json` is
+empty. Use `conda index /opt/channel`, or create `noarch/repodata.json`
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ mkdir project
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda init
+[?2004l
+no change     /home/tiger321/conda/condabin/conda
+no change     /home/tiger321/conda/bin/conda
+no change     /home/tiger321/conda/bin/conda-env
+no change     /home/tiger321/conda/bin/activate
+no change     /home/tiger321/conda/bin/deactivate
+no change     /home/tiger321/conda/etc/profile.d/conda.sh
+no change     /home/tiger321/conda/etc/fish/conf.d/conda.fish
+no change     /home/tiger321/conda/shell/condabin/Conda.psm1
+no change     /home/tiger321/conda/shell/condabin/conda-hook.ps1
+no change     /home/tiger321/conda/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/tiger321/conda/etc/profile.d/conda.csh
+no change     /home/tiger321/.bashrc
+No action taken.
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda compare
+[?2004l
+usage: conda compare [-h] [--json] [--console CONSOLE] [-v] [-q] [-n ENVIRONMENT | -p PATH] file
+conda compare: error: the following arguments are required: file
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda doctor [-v] [-h] [-n ENVIRONMENT | -p PATH][27mconda doctor [-v] [-h] [-n ENVIRONMENT | -p PATH]
+[?2004l
+-p: command not found
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: unrecognized arguments: [-v] [-h] [-n ENVIRONMENT
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda doctor [-v] [-h] [-n ENVIRONMENT | -p PATH][K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kor
+[?2004l
+Environment Health Report for: /home/tiger321/conda
+
+
+✅ There are no packages with altered files.
+
+✅ No pinned specs found in /home/tiger321/conda/conda-meta/pinned.
+✅ The environment is consistent.
+
+ERROR conda.plugins.subcommands.doctor.health_checks:check_envs_txt_file(51): /home/tiger321/.conda/environments.txt could not be accessed because of the following error: [Errno 2] No such file or directory: '/home/tiger321/.conda/environments.txt'
+❌ The environment is not listed in the environments.txt file.
+
+✅ File locking is supported.
+
+✅ There are no packages with missing files.
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ 
+[?2004l
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda repoquery[27mconda repoquery
+[?2004l
+repoquery needs a subcommand (search, depends or whoneeds), e.g.:
+    conda repoquery search python
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ [7mconda repoquery[27mconda repoquery search python
+[?2004l
+Collecting package metadata: - \ | / - \ | / - \ | / failed
+
+UnavailableInvalidChannel: HTTP 404 Not Found for channel new_channel <https://conda.anaconda.org/new_channel>
+
+The channel is not accessible or is invalid.
+
+You will need to adjust your conda configuration to proceed.
+Use `conda config --show channels` to view your configuration's current state,
+and use `conda config --show-sources` to view config file locations.
+
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ conda remove
+[?2004l
+
+CondaValueError: no package names supplied,
+       try "conda remove -h" for more details
+
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ quit
+[?2004l
+Command 'quit' not found, did you mean:
+  command 'quilt' from deb quilt (0.67+really0.67-4)
+  command 'quiz' from deb bsdgames (2.17-30)
+  command 'qgit' from deb qgit (2.10-2)
+Try: sudo apt install <deb name>
+[?2004h(base) ]0;tiger321@TIGER05364: /mnt/c/Users/pavitra.santhana[01;32mtiger321@TIGER05364[00m:[01;34m/mnt/c/Users/pavitra.santhana[00m$ exit
+[?2004l
+exit
+
+Script done on 2025-11-25 10:40:32+00:00 [COMMAND_EXIT_CODE="127"]
